@@ -1,8 +1,6 @@
-import { useState } from 'react'
-import Footer from './components/common/Footer'
-import './App.css'
-import Navbar from './components/common/Navbar'
-import AppRoutes from './routes/AppRoutes'
+import Navbar from "./components/common/Navbar";
+import Footer from "./components/common/Footer";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
@@ -11,7 +9,7 @@ function App() {
       <AppRoutes />
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
