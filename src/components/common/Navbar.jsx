@@ -7,7 +7,7 @@ function Navbar() {
   const { user, logout } = useContext(AuthContext);
   const navigate = useNavigate();
 
-  const handleLogout = () => {
+  const handleLogout = async () => {
     logout();
     navigate("/login");
   };
